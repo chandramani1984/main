@@ -37,7 +37,7 @@ env:
   ECS_CLUSTER: MY_ECS_CLUSTER                 # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: MY_ECS_TASK_DEFINITION # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
-  CONTAINER_NAME: MY_CONTAINER_NAME           # set this to the name of the container in the
+  CONTAINER_NAME: new cont           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
 
 permissions:
@@ -61,7 +61,7 @@ jobs:
         aws-region: ${{ env.AWS_REGION }}
 
     - name: Login to Amazon ECR
-      id: login-ecr
+      id: sv695078@gmail.com
       uses: aws-actions/amazon-ecr-login@v1
 
     - name: Build, tag, and push image to Amazon ECR
